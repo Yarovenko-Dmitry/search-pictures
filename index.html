@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Search pictures</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="mainContent">
+        <input
+                class="searchedPictureName"
+                type="text"
+                placeholder="Enter the name of the picture"
+        >
+        <input
+                class="searchButton"
+                type="button"
+                value="Search"
+                onclick="searchPicture()"
+        >
+        <div class="imagesBox"></div>
+    </div>
+
+    <div class="addContent">
+        <input
+                class="backButton"
+                type="button"
+                value="Back"
+                onclick="backToMainContent()"
+        >
+        <div class="singleImgData">
+
+        </div>
+
+    </div>
+
+</div>
+<script src="index.js"></script>
+</body>
+</html>

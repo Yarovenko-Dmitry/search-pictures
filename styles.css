@@ -1,0 +1,37 @@
+.displayFlex {
+
+}
+
+.displayNone {
+    display: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagesBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgClass {
+    margin: 10px;
+}
+
+.addContent {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
